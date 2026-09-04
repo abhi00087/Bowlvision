@@ -1,0 +1,53 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Ball motion trajectory arc -->
+    <path
+        android:pathData="M24,78 Q36,44 64,36"
+        android:strokeWidth="3.5"
+        android:strokeColor="#00E676"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M20,86 Q30,62 50,56"
+        android:strokeWidth="1.8"
+        android:strokeColor="#8000E676"
+        android:strokeLineCap="round" />
+
+    <!-- Cricket Ball Body (Red Leather) -->
+    <!-- Safe zone center around 54, 54 -->
+    <path
+        android:pathData="M64,32 A20,20 0 1,1 63.99,32 Z"
+        android:fillColor="#E53935" />
+    <!-- Ball Shadow / Specular 3D highlight -->
+    <path
+        android:pathData="M52,40 A14,14 0 0,1 76,46 A20,20 0 0,0 52,40 Z"
+        android:fillColor="#FF7961" />
+
+    <!-- White Seam Stitching Arc -->
+    <path
+        android:pathData="M50,42 Q64,52 78,62"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    <!-- Seam Cross-Stitches -->
+    <path
+        android:pathData="M53,42 L55,47 M58,45 L60,50 M63,48 L65,53 M68,51 L70,56 M73,54 L75,59"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFFFFF" />
+
+    <!-- Velocity / Radar Crosshair Ring -->
+    <path
+        android:pathData="M64,26 A26,26 0 0,1 90,52"
+        android:strokeWidth="2"
+        android:strokeColor="#00E676"
+        android:strokeLineCap="round" />
+    <!-- Crosshair ticks -->
+    <path
+        android:pathData="M90,52 L94,52 M64,26 L64,22"
+        android:strokeWidth="2"
+        android:strokeColor="#00E676"
+        android:strokeLineCap="round" />
+</vector>
+

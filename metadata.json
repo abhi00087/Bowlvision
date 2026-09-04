@@ -1,0 +1,7 @@
+{
+  "name": "Bowling Vision",
+  "description": "Automatic bowling action, ball tracking, speed estimation, and pitch analysis alongside synchronized video playback.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
